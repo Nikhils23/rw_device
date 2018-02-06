@@ -78,3 +78,7 @@ TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 
 # Asian region languages
 TW_EXTRA_LANGUAGES := true
+
+# RedWolf
+DEVICE_HAS_2GB_VARIANT := true
+TWRP_INCLUDE_LOGCAT := true
