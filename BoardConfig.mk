@@ -69,7 +69,6 @@ TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_DEFAULT_BRIGHTNESS := 120
 TW_EXCLUDE_SUPERSU := true
 TW_INCLUDE_NTFS_3G := true
-TW_IGNORE_MISC_WIPE_DATA := true
 TW_NEW_ION_HEAP := true
 
 # Encryption support
