@@ -7,7 +7,7 @@
 /rpm             emmc    /dev/block/bootdevice/by-name/rpm            flags=backup=1;subpartitionof=/firmware
 /aboot           emmc    /dev/block/bootdevice/by-name/aboot          flags=backup=1;subpartitionof=/firmware
 /splash          emmc    /dev/block/bootdevice/by-name/splash         flags=backup=1;subpartitionof=/firmware
-/firmware        vfat    /dev/block/bootdevice/by-name/modem          flags=backup=1;display=Firmware;fsflags="rw,shortname=lower,uid=1000,gid=1026,dmask=227,fmask=337,context=u:object_r:firmware_file:s0"
+/firmware        vfat    /dev/block/bootdevice/by-name/modem          flags=backup=1;display=Firmware;fsflags="rw,shortname=lower,uid=1000,gid=1026,dmask=227,fmask=337"
 
 # efs
 /modem_st1       emmc    /dev/block/bootdevice/by-name/modemst1       flags=backup=1;display=EFS
